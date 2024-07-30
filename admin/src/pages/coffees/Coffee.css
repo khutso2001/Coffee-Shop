@@ -1,0 +1,44 @@
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  gap: 5%;
+}
+.inputs input {
+  width: 220px;
+}
+.ingredients-coffes {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+.ingredients,
+.coffes {
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 5%;
+  border: 1px solid green;
+}
+
+.coffes div {
+  border: 1px solid green;
+  padding: 5px;
+}
+.ingredients div {
+  border: 1px solid green;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 4%;
+}
+
+.createButton {
+  background-color: green;
+  border: navajowhite;
+  padding: 5px;
+  width: 60px;
+  border-radius: 10px;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.ingredeintsPage form {
+  display: flex;
+  padding: 30px;
+  gap: 3%;
+  justify-content: center;
+}
+.ingredeintsPage button {
+  background-color: green;
+  border: navajowhite;
+  padding: 5px;
+  width: 60px;
+  border-radius: 10px;
+  color: white;
+}
+.ingredeintsPage form input {
+  width: 200px;
+}
+.ingredeintsPage div {
+  border: 1px solid green;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}

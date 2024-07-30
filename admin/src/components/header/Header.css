@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(3, 147, 3);
+  height: 65px;
+}
+.header a {
+  color: white;
+}
+.header a:hover {
+  color: rgb(191, 239, 191);
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  gap: 50%;
+  list-style-type: none;
+}
