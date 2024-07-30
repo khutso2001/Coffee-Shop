@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home h2 {
+  margin: 40px;
+}
+
+.coffes-ingredients {
+  display: flex;
+  gap: 20%;
+}
+.coffes-ingredients a {
+  color: white;
+  border: 1px solid green;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  background-color: rgb(92, 173, 92);
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coffes-ingredients a:hover {
+  color: rgb(191, 239, 191);
+}

@@ -1,10 +1,10 @@
-.ingredeintsPage form {
+.inputsForm {
   display: flex;
   padding: 30px;
   gap: 3%;
   justify-content: center;
 }
-.ingredeintsPage button {
+.inputsForm button {
   background-color: green;
   border: navajowhite;
   padding: 5px;
@@ -12,10 +12,10 @@
   border-radius: 10px;
   color: white;
 }
-.ingredeintsPage form input {
+.inputsForm input {
   width: 200px;
 }
-.ingredeintsPage div {
+.ingredient {
   border: 1px solid green;
   padding: 5px;
   display: flex;
@@ -26,4 +26,15 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
+}
+.delete,
+.edit {
+  background-color: red;
+  border: navajowhite;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.edit {
+  background-color: green;
 }

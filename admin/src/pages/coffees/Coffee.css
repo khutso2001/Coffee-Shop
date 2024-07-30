@@ -7,13 +7,13 @@
 .inputs input {
   width: 220px;
 }
-.ingredients-coffes {
+.ingredients-coffees {
   display: flex;
   justify-content: center;
   gap: 10%;
 }
 .ingredients,
-.coffes {
+.coffees {
   width: 40%;
   padding: 10px;
   display: flex;
@@ -22,9 +22,22 @@
   border: 1px solid green;
 }
 
-.coffes div {
+.coffees div {
   border: 1px solid green;
   padding: 5px;
+}
+.delete,
+.edit {
+  background-color: red;
+  border: navajowhite;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  max-width: 50px;
+}
+.edit {
+  background-color: green;
+  margin-right: 5px;
 }
 .ingredients div {
   border: 1px solid green;
